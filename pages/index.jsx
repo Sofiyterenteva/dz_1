@@ -9,7 +9,7 @@ export default function IndexPage(){
     return(
         <main>
             <Text props="Привет!" />
-            <Text props="Меня зовут Соня!" />
+            <Text props="Меня зовут Соня." />
             <input type="text" name="interText" placeholder="Inter Text"  onInput={myFunction} id="myInput" />
             <p className={css.text_text} id="demo"></p>
         </main>
